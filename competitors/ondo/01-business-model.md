@@ -1,7 +1,5 @@
 # Ondo Finance — 商业逻辑
 
-> 调研时间：2026-03-02
-
 ## 一句话总结
 
 **把美国国债的收益率卖给全球加密用户，收的是资产管理费（AUM × 0.15%）。**
@@ -63,8 +61,8 @@ Ondo Finance Inc.（运营公司）
         └── Ondo I LP（特拉华 LP 基金）← 用户成为 LP
               └── 持有 SHV ETF
 ```
-- 走 Section 3(c)(7) 豁免（Investment Company Act）
-- 仅向 Qualified Purchaser 销售
+- 走 Section 3(c)(7) 豁免（美国 : Investment Company Act）, 意思是这个基金不注册成公募基金、不接受普通散户
+- 仅向 Qualified Purchaser (超高净值投资者) 销售
 
 **USDY 结构：**
 ```
