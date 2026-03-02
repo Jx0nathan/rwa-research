@@ -9,6 +9,7 @@
 - [01-business-model.md](./01-business-model.md) — 商业逻辑、产品线、收入模型、合规结构
 - [02-technical-architecture.md](./02-technical-architecture.md) — 源码级技术分析（PriceId 系统、零余额设计、三层合规）
 - [03-ondo-chain-l1.md](./03-ondo-chain-l1.md) — Ondo Chain L1 分析及对自建项目的启示
+- [ondo-architecture.excalidraw](./ondo-architecture.excalidraw) — 技术架构图（用 [Excalidraw](https://excalidraw.com) 打开）
 
 ## 核心结论
 
