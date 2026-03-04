@@ -54,7 +54,7 @@
 
 ## 合规结构（关键）
 
-![alt text](/image/ondo-compliance.png)
+![alt text](./image/ondo-compliance.png)
 
 
 ---
