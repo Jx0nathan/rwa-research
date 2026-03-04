@@ -10,7 +10,7 @@
 
 **OUSG（机构产品）**
 - 底层资产：BlackRock iShares 短期美债 ETF（SHV）
-- 目标用户：机构 / 合规用户
+- 目标用户：机构 / 合规用户（闲置资金、熊市避险等）
 - 最低门槛：$100,000
 - 年化：~5%，管理费 0.15%
 - 合规结构：Reg D / Reg S 豁免
@@ -54,33 +54,8 @@
 
 ## 合规结构（关键）
 
-**OUSG 结构：**
-```
-Ondo Finance Inc.（运营公司）
-  └── Ondo Capital Management LLC（投资管理）
-        └── Ondo I LP（特拉华 LP 基金）← 用户成为 LP
-              └── 持有 SHV ETF
-```
-- 走 Section 3(c)(7) 豁免（美国 : Investment Company Act）, 意思是这个基金不注册成公募基金、不接受普通散户
-- 仅向 Qualified Purchaser (超高净值投资者) 销售
+![alt text](/image/ondo-compliance.png)
 
-**USDY 结构：**
-```
-Ondo USDY LLC（特拉华 SPV）
-  → 向用户发行 USDY Token（债务凭证）
-  → 资产：美债 + 银行存款
-  → 向 FinCEN 注册为 Money Services Business
-```
-- 走 Reg S（仅非美国人）
-- Token 是 LLC 的债务，不是股权
-
-**Ondo Global Markets 结构：**
-```
-Ondo Global Markets (BVI) Limited（BVI SPV）
-  → 发行结构性票据（Structured Note）
-  → 底层：对应股票 / ETF
-  → 安全代理：Ankura Trust（持有第一顺位担保权益）
-```
 
 ---
 
@@ -93,7 +68,6 @@ Ondo Global Markets (BVI) Limited（BVI SPV）
 ---
 
 ## 关键数据（2025年）
-
 - 总 AUM：约 $10 亿+
 - 主要链：Ethereum、Polygon、Solana
 - 审计次数：10+（Code4rena、Spearbit、Cyfrin、Halborn 等）
