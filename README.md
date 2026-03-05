@@ -15,8 +15,6 @@ rwa-research/
 │   │   ├── 01-business-model.md       #   商业模式
 │   │   ├── 02-technical-architecture.md #   技术架构（源码级）
 │   │   └── 03-ondo-chain-l1.md        #   Ondo Chain L1
-│   ├── blackrock-buidl.md             # BlackRock BUIDL（机构美债基金）
-│   ├── franklin-templeton-benji.md    # Franklin Templeton BENJI（零售货基）
 │   ├── securitize.md                  # Securitize（RWA 基础设施平台）
 │   ├── centrifuge.md                  # Centrifuge（私人信贷 + DeFi）
 │   ├── maple-finance.md              # Maple Finance（机构信贷借贷）
@@ -31,8 +29,6 @@ rwa-research/
 | 项目 | 赛道 | 研究深度 |
 |------|------|----------|
 | [Ondo Finance](competitors/ondo/) | 美债代币化 | 商业逻辑 + 技术架构（源码级）+ L1 |
-| [BlackRock BUIDL](competitors/blackrock-buidl.md) | 机构美债基金 | 商业逻辑 |
-| [Franklin Templeton](competitors/franklin-templeton-benji.md) | 零售货基 | 商业逻辑 |
 | [Securitize](competitors/securitize.md) | RWA 基础设施 | 商业逻辑 |
 | [Centrifuge](competitors/centrifuge.md) | 私人信贷 + DeFi | 商业逻辑 |
 | [Maple Finance](competitors/maple-finance.md) | 机构信贷借贷 | 商业逻辑 |
