@@ -1,0 +1,596 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "main-title",
+      "type": "text",
+      "x": 150, "y": 10, "width": 1000, "height": 38,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1001,
+      "version": 1, "versionNonce": 1001, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Centrifuge 核心概念图谱：多链架构 × Pool 结构 × 用户角色",
+      "fontSize": 26, "fontFamily": 1, "textAlign": "center", "verticalAlign": "top",
+      "baseline": 23, "containerId": null, "originalText": "Centrifuge 核心概念图谱：多链架构 × Pool 结构 × 用户角色"
+    },
+
+    {
+      "id": "sec1-label",
+      "type": "text",
+      "x": 30, "y": 60, "width": 400, "height": 22,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1002,
+      "version": 1, "versionNonce": 1002, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "① 多链架构 — Hub-and-Spoke",
+      "fontSize": 15, "fontFamily": 1, "textAlign": "left", "verticalAlign": "top",
+      "baseline": 13, "containerId": null, "originalText": "① 多链架构 — Hub-and-Spoke"
+    },
+
+    {
+      "id": "hub-rect",
+      "type": "rectangle",
+      "x": 470, "y": 88, "width": 260, "height": 75,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#1971c2",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1003,
+      "version": 1, "versionNonce": 1003, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "hub-text",
+      "type": "text",
+      "x": 470, "y": 98, "width": 260, "height": 55,
+      "angle": 0, "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1004,
+      "version": 1, "versionNonce": 1004, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "🔵 Hub Chain\n总账本 · 权限 · NAV · 跨链协调",
+      "fontSize": 14, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 13, "containerId": null, "originalText": "🔵 Hub Chain\n总账本 · 权限 · NAV · 跨链协调"
+    },
+
+    {
+      "id": "spoke1-rect",
+      "type": "rectangle",
+      "x": 30, "y": 220, "width": 185, "height": 60,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "#d0ebff",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1005,
+      "version": 1, "versionNonce": 1005, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "spoke1-text",
+      "type": "text",
+      "x": 30, "y": 230, "width": 185, "height": 40,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1006,
+      "version": 1, "versionNonce": 1006, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Spoke: Ethereum\n用户存款/赎回",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Spoke: Ethereum\n用户存款/赎回"
+    },
+
+    {
+      "id": "spoke2-rect",
+      "type": "rectangle",
+      "x": 265, "y": 220, "width": 185, "height": 60,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "#d0ebff",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1007,
+      "version": 1, "versionNonce": 1007, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "spoke2-text",
+      "type": "text",
+      "x": 265, "y": 230, "width": 185, "height": 40,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1008,
+      "version": 1, "versionNonce": 1008, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Spoke: Base\n用户存款/赎回",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Spoke: Base\n用户存款/赎回"
+    },
+
+    {
+      "id": "spoke3-rect",
+      "type": "rectangle",
+      "x": 720, "y": 220, "width": 185, "height": 60,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "#d0ebff",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1009,
+      "version": 1, "versionNonce": 1009, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "spoke3-text",
+      "type": "text",
+      "x": 720, "y": 230, "width": 185, "height": 40,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1010,
+      "version": 1, "versionNonce": 1010, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Spoke: Arbitrum\n用户存款/赎回",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Spoke: Arbitrum\n用户存款/赎回"
+    },
+
+    {
+      "id": "spoke4-rect",
+      "type": "rectangle",
+      "x": 960, "y": 220, "width": 185, "height": 60,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "#d0ebff",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1011,
+      "version": 1, "versionNonce": 1011, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "spoke4-text",
+      "type": "text",
+      "x": 960, "y": 230, "width": 185, "height": 40,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1012,
+      "version": 1, "versionNonce": 1012, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Spoke: Other EVM\n用户存款/赎回",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Spoke: Other EVM\n用户存款/赎回"
+    },
+
+    {
+      "id": "arrow-hub-s1",
+      "type": "arrow",
+      "x": 530, "y": 163, "width": 407, "height": 57,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1013,
+      "version": 1, "versionNonce": 1013, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [-407, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-hub-s2",
+      "type": "arrow",
+      "x": 530, "y": 163, "width": 172, "height": 57,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1014,
+      "version": 1, "versionNonce": 1014, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [-172, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-hub-s3",
+      "type": "arrow",
+      "x": 670, "y": 163, "width": 143, "height": 57,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1015,
+      "version": 1, "versionNonce": 1015, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [143, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-hub-s4",
+      "type": "arrow",
+      "x": 670, "y": 163, "width": 383, "height": 57,
+      "angle": 0, "strokeColor": "#339af0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1016,
+      "version": 1, "versionNonce": 1016, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [383, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+
+    {
+      "id": "sec2-label",
+      "type": "text",
+      "x": 30, "y": 318, "width": 400, "height": 22,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1017,
+      "version": 1, "versionNonce": 1017, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "② Pool 核心结构",
+      "fontSize": 15, "fontFamily": 1, "textAlign": "left", "verticalAlign": "top",
+      "baseline": 13, "containerId": null, "originalText": "② Pool 核心结构"
+    },
+
+    {
+      "id": "pool-rect",
+      "type": "rectangle",
+      "x": 445, "y": 345, "width": 270, "height": 80,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "#7048e8",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1018,
+      "version": 1, "versionNonce": 1018, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "pool-text",
+      "type": "text",
+      "x": 445, "y": 355, "width": 270, "height": 60,
+      "angle": 0, "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1019,
+      "version": 1, "versionNonce": 1019, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "🟣 Pool（投资产品）\npoolId 全局唯一标识",
+      "fontSize": 15, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 14, "containerId": null, "originalText": "🟣 Pool（投资产品）\npoolId 全局唯一标识"
+    },
+
+    {
+      "id": "nav-rect",
+      "type": "rectangle",
+      "x": 870, "y": 353, "width": 195, "height": 70,
+      "angle": 0, "strokeColor": "#f59f00", "backgroundColor": "#fff3bf",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1020,
+      "version": 1, "versionNonce": 1020, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "nav-text",
+      "type": "text",
+      "x": 870, "y": 360, "width": 195, "height": 55,
+      "angle": 0, "strokeColor": "#e67700", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1021,
+      "version": 1, "versionNonce": 1021, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "📊 NAV\n净资产值\n定价 / 结算基准",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "📊 NAV\n净资产值\n定价 / 结算基准"
+    },
+    {
+      "id": "arrow-nav-pool",
+      "type": "arrow",
+      "x": 870, "y": 388, "width": 155, "height": 0,
+      "angle": 0, "strokeColor": "#f59f00", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "dashed", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1022,
+      "version": 1, "versionNonce": 1022, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [-155, 0]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+
+    {
+      "id": "sca-rect",
+      "type": "rectangle",
+      "x": 175, "y": 480, "width": 225, "height": 75,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "#fff4e6",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1023,
+      "version": 1, "versionNonce": 1023, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "sca-text",
+      "type": "text",
+      "x": 175, "y": 488, "width": 225, "height": 60,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1024,
+      "version": 1, "versionNonce": 1024, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Share Class A（优先级）\nDROP · 固定收益 · 低风险\nscId 标识",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Share Class A（优先级）\nDROP · 固定收益 · 低风险\nscId 标识"
+    },
+
+    {
+      "id": "scb-rect",
+      "type": "rectangle",
+      "x": 760, "y": 480, "width": 225, "height": 75,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "#ffe3e3",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1025,
+      "version": 1, "versionNonce": 1025, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "scb-text",
+      "type": "text",
+      "x": 760, "y": 488, "width": 225, "height": 60,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1026,
+      "version": 1, "versionNonce": 1026, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Share Class B（次级）\nTIN · 浮动收益 · 高风险\n首先承担损失",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Share Class B（次级）\nTIN · 浮动收益 · 高风险\n首先承担损失"
+    },
+
+    {
+      "id": "arrow-pool-sca",
+      "type": "arrow",
+      "x": 530, "y": 425, "width": 242, "height": 55,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1027,
+      "version": 1, "versionNonce": 1027, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [-242, 55]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-pool-scb",
+      "type": "arrow",
+      "x": 630, "y": 425, "width": 242, "height": 55,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1028,
+      "version": 1, "versionNonce": 1028, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [242, 55]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+
+    {
+      "id": "vault-a-rect",
+      "type": "rectangle",
+      "x": 50, "y": 612, "width": 215, "height": 75,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1029,
+      "version": 1, "versionNonce": 1029, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "vault-a-text",
+      "type": "text",
+      "x": 50, "y": 620, "width": 215, "height": 60,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1030,
+      "version": 1, "versionNonce": 1030, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Vault A\n📦 ERC-4626（同步）\n存即铸造，即时到账",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Vault A\n📦 ERC-4626（同步）\n存即铸造，即时到账"
+    },
+
+    {
+      "id": "token-a-rect",
+      "type": "rectangle",
+      "x": 295, "y": 612, "width": 215, "height": 75,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "#f3d9fa",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1031,
+      "version": 1, "versionNonce": 1031, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "token-a-text",
+      "type": "text",
+      "x": 295, "y": 620, "width": 215, "height": 60,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1032,
+      "version": 1, "versionNonce": 1032, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Share Token A\n🪙 ERC-20\n投资人持有凭证",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Share Token A\n🪙 ERC-20\n投资人持有凭证"
+    },
+
+    {
+      "id": "vault-b-rect",
+      "type": "rectangle",
+      "x": 650, "y": 612, "width": 215, "height": 75,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1033,
+      "version": 1, "versionNonce": 1033, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "vault-b-text",
+      "type": "text",
+      "x": 650, "y": 620, "width": 215, "height": 60,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1034,
+      "version": 1, "versionNonce": 1034, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Vault B\n⏳ ERC-7540（异步）\n批量处理，链下资产适用",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Vault B\n⏳ ERC-7540（异步）\n批量处理，链下资产适用"
+    },
+
+    {
+      "id": "token-b-rect",
+      "type": "rectangle",
+      "x": 895, "y": 612, "width": 215, "height": 75,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "#f3d9fa",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1035,
+      "version": 1, "versionNonce": 1035, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "token-b-text",
+      "type": "text",
+      "x": 895, "y": 620, "width": 215, "height": 60,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1036,
+      "version": 1, "versionNonce": 1036, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "Share Token B\n🪙 ERC-20\n投资人持有凭证",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "Share Token B\n🪙 ERC-20\n投资人持有凭证"
+    },
+
+    {
+      "id": "arrow-sca-vaulta",
+      "type": "arrow",
+      "x": 238, "y": 555, "width": 78, "height": 57,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1037,
+      "version": 1, "versionNonce": 1037, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [-78, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-sca-tokena",
+      "type": "arrow",
+      "x": 330, "y": 555, "width": 72, "height": 57,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1038,
+      "version": 1, "versionNonce": 1038, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [72, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-scb-vaultb",
+      "type": "arrow",
+      "x": 820, "y": 555, "width": 57, "height": 57,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1039,
+      "version": 1, "versionNonce": 1039, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [-57, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow-scb-tokenb",
+      "type": "arrow",
+      "x": 930, "y": 555, "width": 72, "height": 57,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 2}, "seed": 1040,
+      "version": 1, "versionNonce": 1040, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false,
+      "points": [[0,0], [72, 57]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": "arrow"
+    },
+
+    {
+      "id": "sec3-label",
+      "type": "text",
+      "x": 30, "y": 718, "width": 400, "height": 22,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1041,
+      "version": 1, "versionNonce": 1041, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "③ 用户角色",
+      "fontSize": 15, "fontFamily": 1, "textAlign": "left", "verticalAlign": "top",
+      "baseline": 13, "containerId": null, "originalText": "③ 用户角色"
+    },
+
+    {
+      "id": "issuer-rect",
+      "type": "rectangle",
+      "x": 50, "y": 748, "width": 210, "height": 90,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1042,
+      "version": 1, "versionNonce": 1042, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "issuer-text",
+      "type": "text",
+      "x": 50, "y": 755, "width": 210, "height": 76,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1043,
+      "version": 1, "versionNonce": 1043, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "🏦 Issuer（发起方）\n部署 Pool\n上架真实资产\n配置合规规则",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "🏦 Issuer（发起方）\n部署 Pool\n上架真实资产\n配置合规规则"
+    },
+
+    {
+      "id": "curator-rect",
+      "type": "rectangle",
+      "x": 445, "y": 748, "width": 210, "height": 90,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "#f3f0ff",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1044,
+      "version": 1, "versionNonce": 1044, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "curator-text",
+      "type": "text",
+      "x": 445, "y": 755, "width": 210, "height": 76,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1045,
+      "version": 1, "versionNonce": 1045, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "🧩 Curator（策略师）\n设计投资策略\n组合 Vault / 资产\n管理 Share Class",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "🧩 Curator（策略师）\n设计投资策略\n组合 Vault / 资产\n管理 Share Class"
+    },
+
+    {
+      "id": "investor-rect",
+      "type": "rectangle",
+      "x": 890, "y": 748, "width": 210, "height": 90,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": {"type": 3}, "seed": 1046,
+      "version": 1, "versionNonce": 1046, "isDeleted": false, "boundElements": [],
+      "updated": 1741700000000, "link": null, "locked": false
+    },
+    {
+      "id": "investor-text",
+      "type": "text",
+      "x": 890, "y": 755, "width": 210, "height": 76,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 0,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 1047,
+      "version": 1, "versionNonce": 1047, "isDeleted": false, "boundElements": null,
+      "updated": 1741700000000, "link": null, "locked": false,
+      "text": "👤 Investor（投资者）\n存入 USDC 等资产\n获得 Share Token\n随时赎回退出",
+      "fontSize": 13, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle",
+      "baseline": 12, "containerId": null, "originalText": "👤 Investor（投资者）\n存入 USDC 等资产\n获得 Share Token\n随时赎回退出"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#f8f9fa"
+  }
+}
